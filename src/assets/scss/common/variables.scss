@@ -1,0 +1,50 @@
+$base-font-size: 16;
+// Paths
+// -------------------------
+$imgPath : '/assets/images/';
+$svgPath : '/assets/svg/';
+$fontsPath : '/assets/fonts/';
+// Fonts
+// -------------------------
+:root {
+  --montser: 'Montserrat';
+  --regular: 400;
+  --medium: 500;
+  --fz55: 55px;
+  --fz48: 48px;
+  --fz42: 42px;
+  --fz34: 34px;
+  --fz24: 24px;
+  --fz18: 18px;
+  --fz15: 15px;
+  --fz13: 13px;
+  --fz10: 10px;
+  --fz8: 8px;
+  --lh68: 68px;
+  --lh42: 42px;
+  --lh37: 37px;
+  --lh36: 36px;
+  --lh28: 28px;
+  --lh19: 19px;
+  --lh16: 16px;
+  --lh13: 13px;
+  --lh10: 10px;
+}
+
+// Colors
+// -------------------------
+:root {
+  --white: #ffffff;
+  --black: rgb(13, 17, 23);
+}
+
+// Breakpoints
+// -------------------------
+:root {
+  --mobile: "375px";
+  --mobileLarge: "575px";
+  --tablet: "768px";
+  --tabletLarge: "1280px";
+  --desktop: "1440px";
+  --desktopLarge: "1920px";
+}
