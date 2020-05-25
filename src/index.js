@@ -211,6 +211,7 @@ columns.addEventListener('click', function(e) {
         parent.querySelector('.btn-apply').textContent = 'Добавить задачу';
         li.dataset.status = tempStatus;
         taskInnerText = '';
+        parent.querySelector('.text-add').value = '';
         closeAdd();
       }
 
@@ -232,6 +233,7 @@ columns.addEventListener('click', function(e) {
         parent.querySelector('.btn-apply').textContent = 'Добавить задачу';
         li.dataset.status = 'column-has-tasks';
         taskInnerText = '';
+        parent.querySelector('.text-add').value = '';
         closeAdd();
       }
     default:
